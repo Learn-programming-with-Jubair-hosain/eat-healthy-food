@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    max-width: 1400px;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+/********* Header section **********/
+.head-container{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.head-img>img{
+    width: 100%;
+}
+.head-img{
+    position: relative;
+}
+div{
+    display: flex;
+    align-items: center;
+}
+.head-text{
+    font-size: 2rem;
+    color: #575757;
+}
+.head-text>h3>span{
+    color: #FBA24F;
+}
+
+/********* Part1 **********/
+
+.part-1{
+    display: flex;
+    background-image: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+.part1-img>img{
+    width: 500px;
+}
+.part1-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 540px;
+    height: 247px;
+}
+.part1-text>h2{
+    margin-top: 100px;
+    color: #707070;
+    font-weight: 700;
+}
+.part1-text>p{
+    color: #18191F;
+    margin-left: 20px;
+}
+.btn{
+    background-color: #FBA24F;
+    color: white;
+    border: none;
+    padding: 15px;
+    border-radius: 20px;
+    margin-right: 400px;
+    cursor: pointer;
+}
+
+
