@@ -2,9 +2,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+.t{
     max-width: 1400px;
     margin: 0 auto;
-    font-family: "Montserrat", sans-serif;
 }
 /********* Header section **********/
 .head-container{
@@ -18,7 +20,7 @@
 .head-img{
     position: relative;
 }
-div{
+.head-container>div{
     display: flex;
     align-items: center;
 }
@@ -67,5 +69,20 @@ div{
     margin-right: 400px;
     cursor: pointer;
 }
+.my-recipies{
+    width: 706px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.my-recipies>h2{
+    color: #676767;
+    margin-bottom: 20px;
+}
+.my-recipies>p{
+    color: #252525;
+    line-height: 1.25;
+}
+
 
 
