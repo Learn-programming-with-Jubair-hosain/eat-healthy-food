@@ -83,14 +83,20 @@
     color: #252525;
     line-height: 1.25;
 }
+/********* Food Item **********/
 
 .food-item{
     margin-top: 100px;
+    margin-bottom: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 .food>img{
-    max-width: 500px;
+    max-width: 400px;
     min-height: 300px;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 .food>h2{
     color: #18191F;
