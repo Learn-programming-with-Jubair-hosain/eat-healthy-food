@@ -84,5 +84,23 @@
     line-height: 1.25;
 }
 
-
+.food-item{
+    margin-top: 100px;
+}
+.food>img{
+    max-width: 500px;
+    min-height: 300px;
+    margin-bottom: 20px;
+}
+.food>h2{
+    color: #18191F;
+    font-size: 1.25rem;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+.food>p{
+    line-height: 2;
+    color: #18191F;
+    
+}
 
