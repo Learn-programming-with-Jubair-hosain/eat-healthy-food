@@ -114,3 +114,17 @@
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.192);
     border-radius: 10px;
 }
+
+/************ socalmidia-followers **********/
+.socalmidia-followers{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+.followers>h2{
+    margin-bottom: 10px;
+}
+
+
